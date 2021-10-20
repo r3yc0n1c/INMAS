@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Update
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ run()
+comment3.params=
+comment3.target=Update()
+comment3.text=\r\n\ Create\ the\ frame.\r\n
+comment4.params=arg0
+comment4.target=void\ keyReleased(java.awt.event.KeyEvent)
+comment5.params=arg0
+comment5.target=void\ mouseClicked(java.awt.event.MouseEvent)
+comment6.params=arg0
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment7.params=arg0
+comment7.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment8.params=
+comment8.target=void\ load()
+numComments=9

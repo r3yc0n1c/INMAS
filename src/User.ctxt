@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=User
+comment1.params=ID\ NAME\ PRICE\ UNIT
+comment1.target=void\ update(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=ID
+comment2.target=void\ delete(java.lang.String)
+numComments=3
