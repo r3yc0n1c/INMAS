@@ -109,25 +109,25 @@ public class Add extends JFrame {
         txtID = new JTextField();
         txtID.setBounds(416, 104, 240, 30);
         contentPane.add(txtID);
-        txtID.setFont(new Font("Lucida Handwriting", Font.PLAIN, 15));
+        txtID.setFont(new Font("Bahnschrift", Font.PLAIN, 15));
         txtID.setColumns(10);
 
         txtName = new JTextField();
         txtName.setBounds(416, 168, 240, 30);
         contentPane.add(txtName);
-        txtName.setFont(new Font("Lucida Handwriting", Font.PLAIN, 15));
+        txtName.setFont(new Font("Bahnschrift", Font.PLAIN, 15));
         txtName.setColumns(10);
 
         txtPrice = new JTextField();
         txtPrice.setBounds(416, 245, 240, 30);
         contentPane.add(txtPrice);
-        txtPrice.setFont(new Font("Lucida Handwriting", Font.PLAIN, 15));
+        txtPrice.setFont(new Font("Bahnschrift", Font.PLAIN, 15));
         txtPrice.setColumns(10);
 
         txtUnit = new JTextField();
         txtUnit.setBounds(416, 309, 240, 30);
         contentPane.add(txtUnit);
-        txtUnit.setFont(new Font("Lucida Handwriting", Font.PLAIN, 15));
+        txtUnit.setFont(new Font("Bahnschrift", Font.PLAIN, 15));
         txtUnit.setColumns(10);
 
         JButton btnAdd = new JButton("ADD");

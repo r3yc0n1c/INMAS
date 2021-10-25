@@ -1,10 +1,7 @@
-
 import java.sql.*;
-
 import javax.swing.JOptionPane;
 
 public class User {
-
 	public void update(String ID,String NAME,String PRICE,String UNIT){
 
 		try{

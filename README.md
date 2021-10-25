@@ -3,6 +3,9 @@ INMAS is an Inventory Management System in Java with GUI support that can be use
 
 
 ## Screenshots
+***
+![Login](screenshots/login.png "INMAS login page")
+***
 ![Welcome](screenshots/welcome.png "INMAS welcome page")
 ***
 ![Update](screenshots/update.png "INMAS updating items")
