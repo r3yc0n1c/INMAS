@@ -69,7 +69,7 @@ public class Welcome extends javax.swing.JFrame {
         lblWelcome.setForeground(Color.WHITE);
         lblWelcome.setBounds(97, 5, 663, 79);
         contentPane.add(lblWelcome);
-        lblWelcome.setFont(new Font("PrimusW00-Bold", Font.PLAIN, 44));
+        lblWelcome.setFont(new Font("Bahnschrift", Font.PLAIN, 44));
 
         lblAddItem = new JLabel("");
         lblAddItem.setForeground(Color.WHITE);
