@@ -73,11 +73,11 @@ public class LoginPage {
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().setLayout(null);
-        JLabel lblNewLabel = new JLabel("STOCK MANAGEMENT SYSTEM");
-        lblNewLabel.setForeground(Color.BLACK);
+        JLabel lblNewLabel = new JLabel("Welcome to INMAS");
+        lblNewLabel.setForeground(Color.WHITE);
         lblNewLabel.setBackground(Color.BLACK);
         lblNewLabel.setFont(new Font("PrimusW00-Bold", Font.BOLD, 28));
-        lblNewLabel.setBounds(65, 0, 457, 51);
+        lblNewLabel.setBounds(180, 0, 457, 51);
         frame.getContentPane().add(lblNewLabel);
 
         JButton btnLogin = new JButton("Login");
@@ -85,10 +85,10 @@ public class LoginPage {
         btnLogin.setBackground(SystemColor.textHighlight);
         btnLogin.setFont(new Font("PrimusW00-Bold", Font.BOLD, 18));
         btnLogin.addActionListener(new ActionListener() {
-                public void actionPerformed(ActionEvent e) {	
+                public void actionPerformed(ActionEvent e) {    
 
-                    String password= txtPassword.getText();		//password=123
-                    String username= txtUsername.getText();		//userName="admin";
+                    String password= txtPassword.getText();     //password=123
+                    String username= txtUsername.getText();     //userName="admin";
 
                     if (password.contains("123") && username.contains("admin")){
 
@@ -111,7 +111,7 @@ public class LoginPage {
                             ex.printStackTrace();
                         }
                         Welcome welcome=new Welcome();
-                        welcome.setVisible(true);	
+                        welcome.setVisible(true);   
                     }
                     else
                     {
@@ -151,7 +151,7 @@ public class LoginPage {
 
                         Clip clip1 = AudioSystem.getClip();
                         clip1.open(AudioSystem.getAudioInputStream(new File("audio/exit.wav")));
-                        clip1.start();				
+                        clip1.start();              
                     } catch (Exception ex) {
                         ex.printStackTrace();
                     }
@@ -173,27 +173,26 @@ public class LoginPage {
             });
         btnExit.setBounds(421, 257, 122, 32);
         frame.getContentPane().add(btnExit);
-        //Image backg=new ImageIcon("/res/back1.gif").getImage();
 
         JLabel lblUsername = new JLabel("Username :");
-        lblUsername.setBounds(247, 60, 129, 32);
+        lblUsername.setBounds(247, 70, 129, 32);
         frame.getContentPane().add(lblUsername);
-        lblUsername.setForeground(Color.BLACK);
+        lblUsername.setForeground(Color.WHITE);
         lblUsername.setFont(new Font("PrimusW00-Bold", Font.BOLD, 20));
 
         txtUsername = new JTextField();
-        txtUsername.setBounds(247, 103, 300, 38);
+        txtUsername.setBounds(247, 113, 300, 38);
         frame.getContentPane().add(txtUsername);
         txtUsername.setForeground(Color.BLACK);
         txtUsername.setBackground(Color.WHITE);
-        txtUsername.setFont(new Font("Lucida Handwriting", Font.PLAIN, 22));
+        txtUsername.setFont(new Font("Calibri", Font.PLAIN, 22));
         txtUsername.setColumns(10);
 
         JLabel lblPassword = new JLabel("Password :");
         lblPassword.setBounds(247, 165, 149, 38);
         frame.getContentPane().add(lblPassword);
         lblPassword.setBackground(UIManager.getColor("Button.background"));
-        lblPassword.setForeground(Color.BLACK);
+        lblPassword.setForeground(Color.WHITE);
         lblPassword.setFont(new Font("PrimusW00-Bold", Font.BOLD, 20));
 
         txtPassword = new JPasswordField();
@@ -201,10 +200,10 @@ public class LoginPage {
         frame.getContentPane().add(txtPassword);
         txtPassword.setForeground(Color.BLACK);
         txtPassword.setBackground(Color.WHITE);
-        txtPassword.setFont(new Font("Lucida Handwriting", Font.PLAIN, 22));
+        txtPassword.setFont(new Font("Calibri", Font.PLAIN, 22));
 
         JLabel lblBackImg = new JLabel("");
-        lblBackImg.setIcon(new ImageIcon("res/back1.gif"));
+        lblBackImg.setIcon(new ImageIcon("res/login_bg.jpg"));
         lblBackImg.setBounds(0, 0, 594, 313);
         frame.getContentPane().add(lblBackImg);
     }
