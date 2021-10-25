@@ -145,25 +145,25 @@ public class Update extends JFrame {
         contentPane.add(lblUnit);
 
         txtUnit = new JTextField();
-        txtUnit.setFont(new Font("Lucida Handwriting", Font.BOLD, 16));
+        txtUnit.setFont(new Font("Bahnschrift", Font.BOLD, 16));
         txtUnit.setBounds(209, 430, 209, 32);
         contentPane.add(txtUnit);
         txtUnit.setColumns(10);
 
         txtPrice = new JTextField();
-        txtPrice.setFont(new Font("Lucida Handwriting", Font.BOLD, 16));
+        txtPrice.setFont(new Font("Bahnschrift", Font.BOLD, 16));
         txtPrice.setBounds(209, 350, 209, 34);
         contentPane.add(txtPrice);
         txtPrice.setColumns(10);
 
         txtName = new JTextField();
-        txtName.setFont(new Font("Lucida Handwriting", Font.BOLD, 16));
+        txtName.setFont(new Font("Bahnschrift", Font.BOLD, 16));
         txtName.setBounds(209, 272, 209, 32);
         contentPane.add(txtName);
         txtName.setColumns(10);
 
         txtID = new JTextField();
-        txtID.setFont(new Font("Lucida Handwriting", Font.BOLD, 16));
+        txtID.setFont(new Font("Bahnschrift", Font.BOLD, 16));
         txtID.setBounds(209, 187, 209, 32);
         contentPane.add(txtID);
         txtID.setColumns(10);
@@ -207,7 +207,7 @@ public class Update extends JFrame {
         contentPane.add(scrollPane);
 
         table = new JTable();
-        table.setFont(new Font("Lucida Handwriting", Font.PLAIN, 16));
+        table.setFont(new Font("Bahnschrift", Font.PLAIN, 16));
         table.setRowHeight(30);
         table.getTableHeader().setFont(new Font("Times New Roman", Font.CENTER_BASELINE, 20));
         table.addMouseListener(new MouseAdapter() {
